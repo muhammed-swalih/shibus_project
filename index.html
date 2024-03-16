@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="w-full h-20 px-20 bg-blue-500 text-white flex items-center">
+      <div class="w-full h-full flex items-center justify-between">
+        <h1 class="text-3xl">Community care connect</h1>
+        <div class="px-5 py-2 bg-red-600">
+          <h1 class="text-white rounded-3xl">logout</h1>
+        </div>
+      </div>
+    </div>
+    <div class="w-full bg-black px-20 py-20" style="height: auto">
+      <div class="flex w-full h-full items-center justify-between">
+        <div class="flex flex-col gap-5 text-white">
+          <h1 class="text-4xl font-semibold">
+            By giving a handup,<br />we rise together
+          </h1>
+          <div class="flex flex-col gap-3">
+            <h1 class="w-1/3 text-sm">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+              ipsa sint iste debitis eaque, doloribus itaque. Non odit, nihil
+              cumque voluptatem, possimus nemo voluptatibus obcaecati nam
+              consequatur repudiandae dolorem neque.
+            </h1>
+            <div
+              class="w-32 h-12 flex items-center justify-center text-black bg-white"
+              style="border-radius: 20px"
+            >
+              <h1>Donate</h1>
+            </div>
+          </div>
+        </div>
+        <div class="px-5 py-5 bg-white" style="border-radius: 20px">
+          <div class="flex flex-col gap-10 text-black">
+            <div class="flex flex-col gap-1">
+              <h1 class="text-3xl">Post your feed!</h1>
+              <h1 class="w-3/4 text-xs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                laudantium porro laborum hic modi corrupti vero dicta veritatis
+              </h1>
+            </div>
+            <div class="flex flex-col gap-1">
+              <textarea
+                style="border: solid 1px black; border-radius: 20px"
+                class="px-4 py-4"
+                placeholder="Type anything"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+              <input class="hidden" id="choose" type="file" />
+
+              <label for="choose">
+                <div
+                  class="w-32 h-10 flex items-center justify-center"
+                  style="border: solid 1px black; border-radius: 20px"
+                >
+                  <h1 class="text-sm">Choose File</h1>
+                </div>
+              </label>
+            </div>
+            <div class="w-full flex justify-end">
+              <div
+                class="w-32 h-10 bg-blue-500 flex items-center justify-center"
+                style="border-radius: 20px"
+              >
+                <h1>Submit</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full px-20 py-10 bg-gray-200">
+      <div class="flex justify-between">
+        <div class="flex flex-col gap-3">
+          <h1 class="text-2xl font-semibold">Choose catogory</h1>
+          <h1 class=" " style="width: 300px">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus repudiandae sequi laborum et sint ipsum, dolorum,
+          </h1>
+        </div>
+        <div class="flex gap-3 items-center">
+          <div
+            class="bg-blue-600 flex items-center justify-center"
+            style="width: 160px; height: 160px; border-radius: 10px"
+          >
+            <div class="flex flex-col items-center text-white gap-2">
+              <div class="w-20 h-20 bg-black"></div>
+              <h1>Medicine</h1>
+            </div>
+          </div>
+          <div
+            class="bg-blue-600 flex items-center justify-center"
+            style="width: 160px; height: 160px; border-radius: 10px"
+          >
+            <div class="flex flex-col items-center text-white gap-2">
+              <div class="w-20 h-20 bg-black"></div>
+              <h1>Furniture</h1>
+            </div>
+          </div>
+          <div
+            class="bg-blue-600 flex items-center justify-center"
+            style="width: 160px; height: 160px; border-radius: 10px"
+          >
+            <div class="flex flex-col items-center text-white gap-2">
+              <div class="w-20 h-20 bg-black"></div>
+              <h1>Food</h1>
+            </div>
+          </div>
+          <div
+            class="bg-blue-600 flex items-center justify-center"
+            style="width: 160px; height: 160px; border-radius: 10px"
+          >
+            <div class="flex flex-col items-center text-white gap-2">
+              <div class="w-20 h-20 bg-black"></div>
+              <h1>Wheel chair</h1>
+            </div>
+          </div>
+          <div
+            class="bg-blue-600 flex items-center justify-center"
+            style="width: 160px; height: 160px; border-radius: 10px"
+          >
+            <div class="flex flex-col items-center text-white gap-2">
+              <div class="w-20 h-20 bg-black"></div>
+              <h1>cloths</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full px-20 py-10 my-10">
+      <h1 class="my-5 text-3xl font-bold">Urgent help!</h1>
+      <div class="w-full flex gap-5 items-center overflow-scroll">
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Urgant for kidney donation</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <h1 class="text-xs text-justify" style="width: 250px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae
+            labore! Eaque veritatis obcaecati molestias sapiente, vitae quidem,
+          </h1>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 flex-shrink-0 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Urgant for kidney donation</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <h1 class="text-xs text-justify" style="width: 250px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae
+            labore! Eaque veritatis obcaecati molestias sapiente, vitae quidem,
+          </h1>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 flex-shrink-0 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Urgant for kidney donation</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <h1 class="text-xs text-justify" style="width: 250px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae
+            labore! Eaque veritatis obcaecati molestias sapiente, vitae quidem,
+          </h1>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 flex-shrink-0 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Urgant for kidney donation</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <h1 class="text-xs text-justify" style="width: 250px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae
+            labore! Eaque veritatis obcaecati molestias sapiente, vitae quidem,
+          </h1>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-3 flex-shrink-0 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Urgant for kidney donation</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <h1 class="text-xs text-justify" style="width: 250px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae
+            labore! Eaque veritatis obcaecati molestias sapiente, vitae quidem,
+          </h1>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="w-full mb-10 border-black" />
+    <div class="w-full px-20 py-10 my-10">
+      <h1 class="my-5 text-3xl font-bold">Donate Blood now!</h1>
+      <div class="w-full flex gap-5 items-center overflow-scroll">
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <div class="flex flex-col gap-1">
+            <div class="flex gap-2 items-center">
+              <h1>Blood Group :</h1>
+              <h1>A+</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Address :</h1>
+              <h1>Mannarkkad</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Hospital Name :</h1>
+              <h1>Mother care</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Patient name :</h1>
+              <h1>Musthak</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Date and Time :</h1>
+              <h1>24/01/2003, 03:00Pm</h1>
+            </div>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <div class="flex flex-col gap-1">
+            <div class="flex gap-2 items-center">
+              <h1>Blood Group :</h1>
+              <h1>A+</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Address :</h1>
+              <h1>Mannarkkad</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Hospital Name :</h1>
+              <h1>Mother care</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Patient name :</h1>
+              <h1>Musthak</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Date and Time :</h1>
+              <h1>24/01/2003, 03:00Pm</h1>
+            </div>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <div class="flex flex-col gap-1">
+            <div class="flex gap-2 items-center">
+              <h1>Blood Group :</h1>
+              <h1>A+</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Address :</h1>
+              <h1>Mannarkkad</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Hospital Name :</h1>
+              <h1>Mother care</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Patient name :</h1>
+              <h1>Musthak</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Date and Time :</h1>
+              <h1>24/01/2003, 03:00Pm</h1>
+            </div>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <div class="flex flex-col gap-1">
+            <div class="flex gap-2 items-center">
+              <h1>Blood Group :</h1>
+              <h1>A+</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Address :</h1>
+              <h1>Mannarkkad</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Hospital Name :</h1>
+              <h1>Mother care</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Patient name :</h1>
+              <h1>Musthak</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Date and Time :</h1>
+              <h1>24/01/2003, 03:00Pm</h1>
+            </div>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <div class="flex flex-col gap-1">
+            <div class="flex gap-2 items-center">
+              <h1>Blood Group :</h1>
+              <h1>A+</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Address :</h1>
+              <h1>Mannarkkad</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Hospital Name :</h1>
+              <h1>Mother care</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Patient name :</h1>
+              <h1>Musthak</h1>
+            </div>
+            <div class="flex gap-2 items-center">
+              <h1>Date and Time :</h1>
+              <h1>24/01/2003, 03:00Pm</h1>
+            </div>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">Donate</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full px-20 py-10 my-10">
+      <h1 class="my-5 text-3xl font-bold">Feeds</h1>
+      <div class="w-full flex flex-wrap gap-5 items-center overflow-scroll">
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Rajesh</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <div>
+            <h1 class="text-xs text-justify" style="width: 250px">
+              we helped a village by giving 100$
+            </h1>
+            <h1 class="text-gray-500 text-xs">24/10/2003, 03:00pm</h1>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">like button</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Rajesh</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <div>
+            <h1 class="text-xs text-justify" style="width: 250px">
+              we helped a village by giving 100$
+            </h1>
+            <h1 class="text-gray-500 text-xs">24/10/2003, 03:00pm</h1>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">like button</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Rajesh</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <div>
+            <h1 class="text-xs text-justify" style="width: 250px">
+              we helped a village by giving 100$
+            </h1>
+            <h1 class="text-gray-500 text-xs">24/10/2003, 03:00pm</h1>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">like button</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Rajesh</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <div>
+            <h1 class="text-xs text-justify" style="width: 250px">
+              we helped a village by giving 100$
+            </h1>
+            <h1 class="text-gray-500 text-xs">24/10/2003, 03:00pm</h1>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">like button</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Rajesh</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <div>
+            <h1 class="text-xs text-justify" style="width: 250px">
+              we helped a village by giving 100$
+            </h1>
+            <h1 class="text-gray-500 text-xs">24/10/2003, 03:00pm</h1>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">like button</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Rajesh</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <div>
+            <h1 class="text-xs text-justify" style="width: 250px">
+              we helped a village by giving 100$
+            </h1>
+            <h1 class="text-gray-500 text-xs">24/10/2003, 03:00pm</h1>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">like button</h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col flex-shrink-0 gap-3 drop-shadow-lg bg-gray-200 px-5 py-5"
+          style="border-radius: 20px"
+        >
+          <h1 class="">Rajesh</h1>
+          <div class="w-64 h-32 bg-black" style="border-radius: 20px"></div>
+          <div>
+            <h1 class="text-xs text-justify" style="width: 250px">
+              we helped a village by giving 100$
+            </h1>
+            <h1 class="text-gray-500 text-xs">24/10/2003, 03:00pm</h1>
+          </div>
+          <div
+            class="w-32 h-10 flex items-center justify-center bg-blue-500"
+            style="border-radius: 20px"
+          >
+            <h1 class="text-white">like button</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
